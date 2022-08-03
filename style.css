@@ -65,7 +65,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 15vmin;
   color: #fff;
   text-align: center;
 }
@@ -80,6 +80,8 @@ header ul {
   display: flex;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 header nav ul li {
@@ -154,6 +156,10 @@ footer p {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .logo{
+    font-size: 7vmin
   }
 
   form {
